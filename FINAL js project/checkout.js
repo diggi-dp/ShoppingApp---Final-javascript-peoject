@@ -71,6 +71,7 @@ $('#btn-place-order').click(function () {
             if (response.ok) {
                 return response.json();
             } else {
+                console.log(alert('server not responding'))
                 throw new Error('something went wrong');
             }
         })
