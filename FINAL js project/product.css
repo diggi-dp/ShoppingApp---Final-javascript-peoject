@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+section {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.left_div {
+    width: 40%;
+    margin-top: 50px;
+    display: block;
+}
+
+.left_div img {
+    width: 100%;
+
+}
+
+.right_div {
+    width: 60%;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.name {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.brand {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.price {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    font-weight: 300;
+    opacity: 0.7;
+}
+.price span{
+    color: #009688;
+}
+
+.description h4{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    font-weight: 300;
+    opacity: 0.7;
+}
+.description p{
+    font-size: 1.1rem;
+    margin: 15px 0;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.preview h4{
+    font-size: 1.2rem;
+    margin: 15px 0;
+    font-weight: 300;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+.previewimg{
+    margin-bottom: 40px;
+}
+.previewimg img {
+    width: 15%;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 4px;
+}
+.currentborder{
+    border: 2px solid #009688;
+    border-radius:7px;
+}
+#btndiv{
+    display: inline-block;
+}
+.btn{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    background-color: #009688;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 7px rgb(0 0 0 / 50%);
+}
+.bigger{
+    transform: scale(1.2, 1.2);
+}
+#btndiv:hover{
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 50%);
+    box-shadow: -0 4px 8px rgb(0 0 0 / 50%);
+}
+
+@media screen and (max-width: 768px){
+.right_div{
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.left_div{
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+}
+
+@media screen and (max-width: 500px){
+    .name{
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+    .previewimg img{
+    margin-right: 0px;
+    }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopLane cheakout</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="header-footer.css">
+    <script src="https://kit.fontawesome.com/35c398e458.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="checkout.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <!-- header section  -->
+    <nav id="topbar">
+        <div id="left-menu">
+            <div id="logo"><a href="home.html"><span>Shop</span>lane</a></div>
+            <a href="home.html#clothing-section">Clothing</a>
+            <a href="home.html#accessory-section">Accessories</a>
+        </div>
+        <div id="search-wrapper">
+            <i class="fas fa-search"></i>
+            <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories" />
+        </div>
+        <div id="right-menu">
+            <div id="cart-wrapper">
+                <p id="cart-count">0</p>
+                <a href="./checkout.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+            <img src="" />
+        </div>
+    </nav>
+
+    <!-- checkoutpage  -->
+    <main>
+        <section id="main-section">
+            <h1 id="main-heading">Checkout</h1>
+
+            <div id="content-wrapper">
+                <div id="card-list">
+                    <h3 class="section-heading">Total Items: <span id="item-count">0</span></h3>
+                </div>
+
+                <div>
+                    <h3 class="section-heading">Total Amount</h3>
+                    <p>Amount: Rs<span id="total-amount">0</span></p>
+                    <button id="btn-place-order">Place Order</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- footer  -->
+    <footer>
+        <div>
+            <p class="footer-heading">Online Store</p>
+            <a href="home.html#clothing-section" class="footer-link">Men Clothing</a>
+            <a href="home.html#clothing-section" class="footer-link">Women Clothing</a>
+            <a href="home.html#accessory-section" class="footer-link">Men Accessories</a>
+            <a href="home.html#accessory-section" class="footer-link">Women Accessories</a>
+        </div>
+        <div>
+            <p class="footer-heading">Helpful Links</p>
+            <a href="home.html" class="footer-link">Home</a>
+            <a href="/" class="footer-link">About</a>
+            <a href="/" class="footer-link">Contact</a>
+        </div>
+        <div>
+            <p class="footer-heading">Partners</p>
+            <a href="/" class="footer-link">Zara</a>
+            <a href="/" class="footer-link">Pantaloons</a>
+            <a href="/" class="footer-link">Levis</a>
+            <a href="/" class="footer-link">UCB</a>
+            <a href="/" class="footer-link">+ Many More</a>
+        </div>
+        <div>
+            <p class="footer-heading">Address</p>
+            <p href="/" class="footer-link">Building 101</p>
+            <p href="/" class="footer-link">Central Avenue</p>
+            <p href="/" class="footer-link">LA - 902722</p>
+            <p href="/" class="footer-link">United States</p>
+        </div>
+    </footer>
+
+    <script src="header-footer.js" type="text/javascript"></script>
+</body>
+
+</html>

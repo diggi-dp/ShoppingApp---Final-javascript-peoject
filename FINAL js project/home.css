@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* carousel */
+.carousel-section{
+    position: relative;
+    top: 90px;
+}
+
+/* product css  */
+main h2{
+    margin-top: 88px;
+    margin-left: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 0 4%;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 16%;
+    min-width: 140px;
+    box-shadow: -1px -1px 2px gray,1px 1px 2px gray;
+    margin: 30px 15px;
+    cursor: pointer;
+    height: auto;
+}
+.card:hover{
+    box-shadow: -4px -4px 8px gray,4px 4px 8px gray;
+}
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+.card h3,
+h4,
+p {
+    margin-top: 10px;
+}
+
+.card h3 {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+
+.card h4 {
+    font-size: 12px;
+}
+.card p{
+    color: #009688;   
+}
+
+.img img {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.card-details {
+    color: rgba(27, 25, 25, 0.703);
+    font-weight: 300;
+    margin: 0px 10px;
+    padding-bottom: 25px;
+    opacity: 0.9;
+}
